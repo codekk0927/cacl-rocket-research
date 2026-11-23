@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>中国商火 · 发射前的准备 / 发射后的运转 · 调研（精简版）｜唐悦</title>
+<style>
+:root{--navy:#112241;--navy2:#0c1932;--red:#CC3230;--orange:#E58235}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:#060d1a;color:#fff;font-family:"Alibaba PuHuiTi 3.0","Alibaba PuHuiTi","PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+nav{position:sticky;top:0;z-index:9;display:flex;gap:6px;align-items:center;padding:12px 24px;background:rgba(6,13,26,.88);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08);overflow-x:auto;white-space:nowrap}
+nav .brand{font-weight:700;margin-right:12px;font-size:14px;letter-spacing:.08em}
+nav .brand i{display:inline-block;width:4px;height:14px;background:linear-gradient(var(--orange),var(--red));margin-right:8px;border-radius:2px;vertical-align:-2px}
+nav a{color:rgba(255,255,255,.72);text-decoration:none;font-size:13px;padding:6px 12px;border-radius:20px;border:1px solid rgba(255,255,255,.1)}
+nav a:hover{color:#fff;border-color:var(--orange)}
+nav a b{color:var(--orange);margin-right:6px;font-family:"Bebas Neue",Impact,sans-serif;font-weight:400;font-size:15px}
+
+.wrap{max-width:1680px;margin:24px auto;padding:0 24px}
+.slide{container-type:inline-size;border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.frame{--u:calc(100cqw / 1920);aspect-ratio:16/9;display:flex;flex-direction:column;
+  padding:calc(64*var(--u)) calc(96*var(--u)) calc(44*var(--u));
+  background:radial-gradient(calc(1300*var(--u)) calc(520*var(--u)) at 88% -8%,rgba(229,130,53,.14),transparent 60%),linear-gradient(180deg,var(--navy),var(--navy2));
+  font-size:calc(22*var(--u));line-height:1.6}
+.tag0{align-self:flex-start;background:var(--orange);font-weight:700;font-size:calc(18*var(--u));padding:calc(5*var(--u)) calc(14*var(--u));border-radius:calc(5*var(--u))}
+.ttl{display:flex;align-items:baseline;gap:calc(24*var(--u));margin:calc(18*var(--u)) 0 0}
+.ttl h2{font-size:calc(58*var(--u));line-height:1.15}
+.ttl span{font-size:calc(24*var(--u));color:rgba(255,255,255,.6)}
+.main{flex:1;display:flex;flex-direction:column;justify-content:center;gap:calc(44*var(--u));min-height:0}
+.foot{display:flex;justify-content:space-between;align-items:flex-end;font-size:calc(14*var(--u));letter-spacing:.3em;color:rgba(255,255,255,.38)}
+.foot b{color:var(--orange);font-family:"Bebas Neue",Impact,sans-serif;font-weight:400;font-size:calc(30*var(--u));letter-spacing:.04em;line-height:1}
+
+.insight{font-size:calc(32*var(--u));font-weight:500;line-height:1.5;padding-left:calc(26*var(--u));border-left:calc(6*var(--u)) solid var(--orange)}
+.insight b{color:var(--orange)}
+
+.sh{display:flex;align-items:center;gap:calc(10*var(--u));margin-bottom:calc(18*var(--u))}
+.sh i{width:calc(5*var(--u));height:calc(22*var(--u));border-radius:3px;background:linear-gradient(var(--orange),var(--red))}
+.sh b{font-size:calc(24*var(--u))}
+.sh em{font-style:normal;color:var(--orange);font-size:calc(13*var(--u));letter-spacing:.18em;font-weight:600}
+.sh .note{margin-left:auto;font-size:calc(15*var(--u));color:rgba(255,255,255,.42)}
+
+.tl{display:grid;grid-template-columns:repeat(var(--n),1fr);gap:calc(18*var(--u))}
+.st .rail{display:flex;align-items:center;gap:calc(6*var(--u));margin-bottom:calc(10*var(--u))}
+.st .rail:before{content:"";width:calc(14*var(--u));height:calc(14*var(--u));border-radius:50%;background:var(--c);box-shadow:0 0 calc(10*var(--u)) var(--c);flex:none}
+.st .rail span{flex:1;height:calc(2*var(--u));background:linear-gradient(90deg,var(--c),rgba(255,255,255,.08))}
+.st .t{font-family:"Bebas Neue",Impact,sans-serif;font-size:calc(32*var(--u));line-height:1;color:var(--c)}
+.st h4{font-size:calc(24*var(--u));margin:calc(6*var(--u)) 0 calc(4*var(--u))}
+.st p{font-size:calc(19*var(--u));line-height:1.5;color:rgba(255,255,255,.7)}
+
+.grid{display:grid;gap:calc(22*var(--u))}
+.card{border-radius:calc(14*var(--u));background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.11);padding:calc(24*var(--u)) calc(26*var(--u))}
+.card .n{font-family:"Bebas Neue",Impact,sans-serif;color:var(--orange);font-size:calc(40*var(--u));line-height:1}
+.card h4{font-size:calc(26*var(--u));margin:calc(8*var(--u)) 0 calc(6*var(--u))}
+.card p{font-size:calc(19*var(--u));line-height:1.55;color:rgba(255,255,255,.72)}
+.card p b{color:var(--orange);font-weight:600}
+
+.refs{display:grid;grid-template-columns:repeat(3,1fr);gap:calc(18*var(--u))}
+.ref{display:flex;gap:calc(12*var(--u));align-items:flex-start;text-decoration:none;padding:calc(14*var(--u)) calc(18*var(--u));border-radius:calc(12*var(--u));border:1px solid rgba(255,255,255,.11);background:rgba(0,0,0,.15);transition:border-color .2s,background .2s}
+.ref:hover{border-color:var(--orange);background:rgba(229,130,53,.08)}
+.ref .pl{flex:none;margin-top:calc(3*var(--u));font-size:calc(13*var(--u));font-weight:700;background:#FB7299;border-radius:calc(20*var(--u));padding:0 calc(8*var(--u))}
+.ref b{font-size:calc(19*var(--u));line-height:1.45;text-decoration:underline;text-decoration-color:rgba(229,130,53,.6);text-underline-offset:4px}
+.ref span{display:block;font-size:calc(16*var(--u));color:rgba(255,255,255,.58);margin-top:calc(2*var(--u))}
+
+@media (max-width:900px){
+  .frame{aspect-ratio:auto;padding:28px 18px;--u:0.72px}
+  .tl,.grid,.refs{grid-template-columns:1fr!important}
+  .ttl{flex-direction:column;gap:4px}
+  .insight{font-size:18px}.st p,.card p,.ref b{font-size:15px}.st h4,.card h4{font-size:18px}.ref span{font-size:13px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <span class="brand"><i></i>ROCKET VLOG RESEARCH · 精简版</span>
+  <a href="#p43"><b>43</b>发射前的准备（1/2）</a>
+  <a href="#p44"><b>44</b>发射前的准备（2/2）</a>
+  <a href="#p45"><b>45</b>发射后的运转（1/2）</a>
+  <a href="#p46"><b>46</b>发射后的运转（2/2）</a>
+  <a href="#p47"><b>47</b>借鉴的剪辑风格</a>
+</nav>
+
+<!-- 43 -->
+<div class="wrap" id="p43"><div class="slide"><div class="frame">
+  <span class="tag0">43 | 唐悦 | 发射前的准备（1/2）</span>
+  <div class="ttl"><h2>发射前的准备</h2><span>发射前都在忙什么？</span></div>
+  <div class="main">
+    <p class="insight">发射不是“按下按钮的一秒”，而是<b>持续数周的接力</b>。<br>最好看的不只是火箭，而是<b>围着火箭转的人</b>。</p>
+    <div>
+      <div class="sh"><i></i><b>发射前 5 步</b><em>PRE-LAUNCH</em><span class="note">时间为典型流程示意</span></div>
+      <div class="tl" style="--n:5">
+        <div class="st" style="--c:#9ea6b3"><div class="rail"><span></span></div><div class="t">T-30天</div><h4>出厂转运</h4><p>火箭分段运到发射场</p></div>
+        <div class="st" style="--c:#c39565"><div class="rail"><span></span></div><div class="t">T-20天</div><h4>总装测试</h4><p>火箭“全身体检”</p></div>
+        <div class="st" style="--c:#E58235"><div class="rail"><span></span></div><div class="t">T-3天</div><h4>转运起竖</h4><p>躺着出门，站着上岗</p></div>
+        <div class="st" style="--c:#d9582f"><div class="rail"><span></span></div><div class="t">T-数小时</div><h4>加注燃料</h4><p>冒白气 = 火箭“活了”</p></div>
+        <div class="st" style="--c:#CC3230"><div class="rail"><span></span></div><div class="t">T-0</div><h4>倒计时点火</h4><p>零窗口，精确到秒</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>ROCKET VLOG RESEARCH · 中国商火 CACL</span><b>43</b></div>
+</div></div></div>
+
+<!-- 44 -->
+<div class="wrap" id="p44"><div class="slide"><div class="frame">
+  <span class="tag0">44 | 唐悦 | 发射前的准备（2/2）</span>
+  <div class="ttl"><h2>发射前的准备</h2><span>用博主视角怎么讲？</span></div>
+  <div class="main">
+    <div class="grid" style="grid-template-columns:repeat(3,1fr)">
+      <div class="card"><div class="n">01</div><h4>火箭也要“打车”</h4><p>跟拍转运车，讲大火箭怎么过隧道、怎么“站起来”。<br><b>反差感</b></p></div>
+      <div class="card"><div class="n">02</div><h4>倒计时黑话翻译</h4><p>把“转电”“摆杆”等口令配上大白话字幕。<br><b>仪式感</b></p></div>
+      <div class="card"><div class="n">03</div><h4>发射场打工人</h4><p>以“实习生”身份提问，每个岗位一句话回答。<br><b>人情味</b></p></div>
+    </div>
+    <div>
+      <div class="sh"><i></i><b>参考视频</b><em>REFERENCES</em><span class="note">点击打开</span></div>
+      <div class="refs">
+        <a class="ref" href="https://www.bilibili.com/video/BV1XQstzmEok" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>朱雀三号运输纪实</b><span>借鉴：把转运拍成公路片</span></div></a>
+        <a class="ref" href="https://www.bilibili.com/video/BV15v411B7t8" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>发射倒计时究竟谁喊的？</b><span>借鉴：问句开场 + 采访关键岗位</span></div></a>
+        <a class="ref" href="https://www.bilibili.com/video/BV1PDpc6qEXb" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>长征十二号转运与起竖</b><span>借鉴：同系列火箭的真实画面</span></div></a>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>ROCKET VLOG RESEARCH · 中国商火 CACL</span><b>44</b></div>
+</div></div></div>
+
+<!-- 45 -->
+<div class="wrap" id="p45"><div class="slide"><div class="frame">
+  <span class="tag0">45 | 唐悦 | 发射后的运转（1/2）</span>
+  <div class="ttl"><h2>发射后的运转</h2><span>火箭飞走之后，还发生了什么？</span></div>
+  <div class="main">
+    <p class="insight">升空只要<b>十几分钟</b>，地面却要<b>忙很久</b>。<br>火箭飞走之后，才是观众最好奇、最少被讲清楚的部分。</p>
+    <div>
+      <div class="sh"><i></i><b>发射后 5 步</b><em>POST-LAUNCH</em><span class="note">时间为典型流程示意</span></div>
+      <div class="tl" style="--n:5">
+        <div class="st" style="--c:#9ea6b3"><div class="rail"><span></span></div><div class="t">T+0</div><h4>起飞</h4><p>飞着飞着就“侧身”了</p></div>
+        <div class="st" style="--c:#c39565"><div class="rail"><span></span></div><div class="t">T+几分钟</div><h4>分离</h4><p>一级、整流罩依次“下车”</p></div>
+        <div class="st" style="--c:#E58235"><div class="rail"><span></span></div><div class="t">约T+10分</div><h4>星箭分离</h4><p>卫星“到站”</p></div>
+        <div class="st" style="--c:#d9582f"><div class="rail"><span></span></div><div class="t">数十分钟后</div><h4>宣布成功</h4><p>测控确认入轨才算数</p></div>
+        <div class="st" style="--c:#CC3230"><div class="rail"><span></span></div><div class="t">T+数天</div><h4>回收复盘</h4><p>回收、检修、准备下一发</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>ROCKET VLOG RESEARCH · 中国商火 CACL</span><b>45</b></div>
+</div></div></div>
+
+<!-- 46 -->
+<div class="wrap" id="p46"><div class="slide"><div class="frame">
+  <span class="tag0">46 | 唐悦 | 发射后的运转（2/2）</span>
+  <div class="ttl"><h2>发射后的运转</h2><span>用博主视角怎么讲？</span></div>
+  <div class="main">
+    <div class="grid" style="grid-template-columns:repeat(3,1fr)">
+      <div class="card"><div class="n">01</div><h4>火箭的最后一条朋友圈</h4><p>用箭载第一视角开场：分离、看见地球。<br><b>沉浸感</b></p></div>
+      <div class="card"><div class="n">02</div><h4>谁在盯着它</h4><p>镜头留在指挥大厅，拍宣布成功时的人。<br><b>情绪高点</b></p></div>
+      <div class="card"><div class="n">03</div><h4>回家的火箭</h4><p>垂直回收 = 一次性筷子变可重复餐具。<br><b>讲清降本</b></p></div>
+    </div>
+    <div>
+      <div class="sh"><i></i><b>参考视频</b><em>REFERENCES</em><span class="note">点击打开</span></div>
+      <div class="refs">
+        <a class="ref" href="https://www.bilibili.com/video/BV1Ch8i6XEfm" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>大疆 Action 6 坐火箭上太空</b><span>借鉴：第一视角（591 万播放）</span></div></a>
+        <a class="ref" href="https://www.bilibili.com/video/BV1VJ411e7yQ" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>“胖5”成功后指挥大厅沸腾</b><span>借鉴：拍人，不拍屏幕</span></div></a>
+        <a class="ref" href="https://www.bilibili.com/video/BV1XZBNBYEF9" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>长征十二号甲一子级回收</b><span>借鉴：同系列火箭回收画面</span></div></a>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>ROCKET VLOG RESEARCH · 中国商火 CACL</span><b>46</b></div>
+</div></div></div>
+
+<!-- 47 -->
+<div class="wrap" id="p47"><div class="slide"><div class="frame">
+  <span class="tag0">47 | 唐悦 | 借鉴的剪辑风格</span>
+  <div class="ttl"><h2>借鉴的剪辑风格</h2><span>4 种可以直接用的手法</span></div>
+  <div class="main">
+    <div class="grid" style="grid-template-columns:repeat(2,1fr)">
+      <div class="card"><div class="n">01</div><h4>倒计时做骨架</h4><p>发射前倒数、发射后正数，两段首尾相接。</p>
+        <a class="ref" style="margin-top:calc(14*var(--u))" href="https://www.bilibili.com/video/BV1Za4y1p7pR" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>01 指挥员倒计时视角</b></div></a></div>
+      <div class="card"><div class="n">02</div><h4>博主参与式叙事</h4><p>唐悦“跟一枚火箭走完一生”，给全片一条主线。</p>
+        <a class="ref" style="margin-top:calc(14*var(--u))" href="https://www.bilibili.com/video/BV1Ec411z7j2" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>影视飓风《我们买了一颗国产卫星》</b></div></a></div>
+      <div class="card"><div class="n">03</div><h4>一镜到底 + 声音延迟</h4><p>起飞段不剪不配乐，先见火光、后闻轰鸣。</p>
+        <a class="ref" style="margin-top:calc(14*var(--u))" href="https://www.bilibili.com/video/BV1scVq6LEAH" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>【8K】一镜到底 长征十二号乙首飞</b></div></a></div>
+      <div class="card"><div class="n">04</div><h4>三维动画讲原理</h4><p>分离、回收这些看不见的过程，用动画讲清楚。</p>
+        <a class="ref" style="margin-top:calc(14*var(--u))" href="https://www.bilibili.com/video/BV1HP876bEHa" target="_blank" rel="noopener"><span class="pl">B站</span><div><b>央视 XR 解析朱雀三号起落</b></div></a></div>
+    </div>
+  </div>
+  <div class="foot"><span>ROCKET VLOG RESEARCH · 中国商火 CACL</span><b>47</b></div>
+</div></div></div>
+</body>
+</html>
